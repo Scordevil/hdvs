@@ -5,6 +5,8 @@
  */
 package javaapplication4;
 
+import com.app.formularios.Login;
+
 /**
  *
  * @author user
@@ -15,7 +17,9 @@ public class JavaApplication4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+         Login miLogin = new Login();
+        miLogin.setLocationRelativeTo(null);
+        miLogin.setVisible(true);
     }
     
 }
